@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+<style>
+    body{
+        background-image: url(loginbackground.jpeg);
+
+        background-repeat:repeat-x;
+        font-family: Arial, Helvetica, sans-serif;
+        color:aliceblue
+    }
+.container{
+    border: 3px solid transparent;
+    align-items: center;
+    background-image:url(formsbackground.jpeg);
+    background-repeat: no-repeat;
+    width:fit-content;
+    height:fit-content;
+    border-radius: 1cm;
+    position:relative;
+    top:160px;
+    left:470px;
+}
+form{
+    margin-left: 6px;
+    padding: 10px;
+}
+input{
+    width:400px;
+    height:30px;
+    border-radius: 0.5cm;
+    border: white;
+}
+h2{
+    text-align: center;
+}
+.loginbt{
+    color: aliceblue;
+    border: 2px transparent;
+    border-radius: 0.9cm;
+    padding:3px;
+    background-color:purple;
+    height: 50px;
+    width: 100px;
+}
+.new{
+    color:aliceblue;
+    background-color: rgb(73, 12, 238);
+    padding: 3px;
+    border-radius: 0.9cm;
+    border: 2px transparent;
+    position:fixed;
+    right:20px;
+    top:13px;
+    height: 50px;
+    width: 100px;
+}
+.textlink {
+    color: inherit; 
+    text-decoration: none; 
+    cursor: pointer;  
+}
+</style>
+</head>
+
+
+<body>
+    <button class="new"><a href="signup.html" class="textlink">Sign up</a></button>
+   <h1 style="text-align: center">TOONWORLD!</h1> 
+    <div class="container">
+    <h2>Login</h2>
+    <form> 
+        <label><br>User Name<br></label>
+        <input type="text" placeholder="Enter Your Username"><br>
+        <lable><br>Password<br></lable>
+        <input type="password" placeholder="Password"><br><br>
+       <center> <button type="submit" class="loginbt"><a href="cartoon.html" class="textlink">login</a></button></center>
+<br>
+    </form>
+</div>
+</body>
+</html>
